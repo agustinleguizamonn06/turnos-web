@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "2025-04-18", // Feriado
   "2025-05-01", // Día del Trabajador
     function(date) {
-      return date.getDay() === 0 || date.getDay() === 2; // Domingo y Martes
+      return date.getDay() === 0 || date.getDay() === 2; // Domingo y Lunes
     }
   ],
     onChange: function (selectedDates, dateStr) {
