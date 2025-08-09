@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Deshabilitar DOMINGOS (0) y Lunes (1)
   // 0 = Domingo, 1 = Lunes, 2 = Martes, ..., 6 = Sábado
   disable: [
-    "2025-04-18", // Feriado
+    "2025-08-15", // Feriado
   "2025-05-01", // Día del Trabajador
     function(date) {
       return date.getDay() === 0 || date.getDay() === 1; // Domingo y Lunes
